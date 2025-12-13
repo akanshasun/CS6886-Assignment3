@@ -1,0 +1,8 @@
+Loaded Q1 baseline model
+Applied pruning | sparsity=0.5, threshold=0.000085
+Applied quantization | 8-bit
+
+===== Q2 RESULTS =====
+Quant bits     : 8
+Prune sparsity : 0.5
+Test Accuracy  : 92.95%

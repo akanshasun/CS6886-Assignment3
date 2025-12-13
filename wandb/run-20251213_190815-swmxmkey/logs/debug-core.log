@@ -1,0 +1,16 @@
+{"time":"2025-12-13T19:08:15.792706603Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpa_k1eght/port-12239.txt","pid":12239,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-12-13T19:08:15.795881443Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":12239}
+{"time":"2025-12-13T19:08:15.795864559Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-12239-12409-727140307/socket","Net":"unix"}}
+{"time":"2025-12-13T19:08:15.882924188Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-12-13T19:08:15.894477613Z","level":"INFO","msg":"handleInformInit: received","streamId":"swmxmkey","id":"1(@)"}
+{"time":"2025-12-13T19:08:16.09223246Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"swmxmkey","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.427620721Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"swmxmkey","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431061276Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"swmxmkey","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431078657Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431090483Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431098439Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431111195Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-12-13T19:08:22.431125466Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.43113013Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-12-13T19:08:22.431207121Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-12239-12409-727140307/socket","Net":"unix"}}
+{"time":"2025-12-13T19:08:22.43124535Z","level":"INFO","msg":"server is closed"}

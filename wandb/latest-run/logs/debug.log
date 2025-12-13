@@ -1,0 +1,21 @@
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /content/project/wandb/run-20251213_190935-3pvrgn8z/logs/debug.log
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /content/project/wandb/run-20251213_190935-3pvrgn8z/logs/debug-internal.log
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:init():841] calling init triggers
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'quant_bits': 2, 'prune_sparsity': 0.5, '_wandb': {}}
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:init():889] starting backend
+2025-12-13 19:09:35,258 INFO    MainThread:12576 [wandb_init.py:init():892] sending inform_init request
+2025-12-13 19:09:35,259 INFO    MainThread:12576 [wandb_init.py:init():900] backend started and connected
+2025-12-13 19:09:35,262 INFO    MainThread:12576 [wandb_init.py:init():970] updated telemetry
+2025-12-13 19:09:35,262 INFO    MainThread:12576 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-13 19:09:35,685 INFO    MainThread:12576 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-13 19:09:36,198 INFO    MainThread:12576 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-13 19:09:36,198 INFO    MainThread:12576 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-13 19:09:36,198 INFO    MainThread:12576 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-13 19:09:36,198 INFO    MainThread:12576 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-13 19:09:36,200 INFO    MainThread:12576 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-13 19:09:40,438 INFO    MainThread:12576 [wandb_run.py:_finish():2287] finishing run ee23m505-iitmaana/CS6886-Q3-Compression/3pvrgn8z
+2025-12-13 19:09:40,439 INFO    MainThread:12576 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-13 19:09:40,439 INFO    MainThread:12576 [wandb_run.py:_restore():2468] restore
+2025-12-13 19:09:40,439 INFO    MainThread:12576 [wandb_run.py:_restore():2474] restore done
+2025-12-13 19:09:40,980 INFO    MainThread:12576 [wandb_run.py:_footer_sync_info():3862] logging synced files

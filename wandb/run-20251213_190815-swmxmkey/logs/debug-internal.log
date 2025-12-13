@@ -1,0 +1,12 @@
+{"time":"2025-12-13T19:08:15.894643423Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-13T19:08:16.091808702Z","level":"INFO","msg":"stream: created new stream","id":"swmxmkey"}
+{"time":"2025-12-13T19:08:16.092007421Z","level":"INFO","msg":"handler: started","stream_id":"swmxmkey"}
+{"time":"2025-12-13T19:08:16.092214471Z","level":"INFO","msg":"stream: started","id":"swmxmkey"}
+{"time":"2025-12-13T19:08:16.092239351Z","level":"INFO","msg":"writer: started","stream_id":"swmxmkey"}
+{"time":"2025-12-13T19:08:16.092251666Z","level":"INFO","msg":"sender: started","stream_id":"swmxmkey"}
+{"time":"2025-12-13T19:08:22.26467089Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-13T19:08:22.424452446Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-13T19:08:22.427649536Z","level":"INFO","msg":"stream: closing","id":"swmxmkey"}
+{"time":"2025-12-13T19:08:22.427670058Z","level":"INFO","msg":"handler: closed","stream_id":"swmxmkey"}
+{"time":"2025-12-13T19:08:22.427704478Z","level":"INFO","msg":"sender: closed","stream_id":"swmxmkey"}
+{"time":"2025-12-13T19:08:22.427711265Z","level":"INFO","msg":"stream: closed","id":"swmxmkey"}

@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            s59qn9c70tivvl8y9nehqfn62aruqj3p:
+                codePath: main_q2_eval.py
+                codePathLocal: main_q2_eval.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "41684774912"
+                email: ee23m505@smail.iitm.ac.in
+                executable: /usr/bin/python3
+                gpu: NVIDIA A100-SXM4-40GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-SXM4-40GB
+                      uuid: GPU-00691ec4-256e-e835-abea-c960478b3301
+                host: 2bd8cf155297
+                memory:
+                    total: "89629220864"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: /content/project/main_q2_eval.py
+                python: CPython 3.12.12
+                root: /content/project
+                startedAt: "2025-12-13T19:08:15.111793Z"
+                writerId: s59qn9c70tivvl8y9nehqfn62aruqj3p
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 2
+                - 16
+            "4": 3.12.12
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+prune_sparsity:
+    value: 0.5
+quant_bits:
+    value: 8

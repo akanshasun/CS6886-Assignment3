@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            0z1zenvxvq2jxzs5jkbibv1383o03qat:
+                codePath: run_q3_wandb.py
+                codePathLocal: run_q3_wandb.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "41684975616"
+                email: ee23m505@smail.iitm.ac.in
+                executable: /usr/bin/python3
+                gpu: NVIDIA A100-SXM4-40GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-SXM4-40GB
+                      uuid: GPU-00691ec4-256e-e835-abea-c960478b3301
+                host: 2bd8cf155297
+                memory:
+                    total: "89629220864"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: /content/project/run_q3_wandb.py
+                python: CPython 3.12.12
+                root: /content/project
+                startedAt: "2025-12-13T19:08:54.242724Z"
+                writerId: 0z1zenvxvq2jxzs5jkbibv1383o03qat
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 2
+                - 16
+            "4": 3.12.12
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+prune_sparsity:
+    value: 0.3
+quant_bits:
+    value: 8
