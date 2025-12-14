@@ -1,3 +1,4 @@
+
 # CS6886-Assignment3
 Training MobileNet-v2 on CIFAR-10 and applying model compression techniques to reduce model size while retaining accuracy
 
@@ -25,7 +26,7 @@ Install dependencies:
 pip install torch torchvision torchaudio
 pip install wandb numpy matplotlib
 
-Seed used for 1st experiment was random. Have now set it to 42. 
+Seed used: 42  
 
 How to Run
 Q1 – Baseline Training
@@ -41,9 +42,4 @@ prune_sparsity = 0.3
 Q3 – WandB Sweep
 python run_q3_wandb.py
 
-Login to WandB once:
-import wandb
-wandb.login()
-
-
-Parallel Coordinates plots are generated in the WandB UI.
+Login to WandB once
