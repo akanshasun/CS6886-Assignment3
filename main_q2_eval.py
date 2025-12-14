@@ -2,7 +2,7 @@ import torch
 import os
 import wandb
 
-from config import Config
+from config import Config,set_seed
 from dataset import get_cifar10_loaders
 from model import CIFARMobileNetV2
 from train import evaluate
@@ -13,6 +13,7 @@ from apply_compression import apply_quantization
 
 def main():
     # ---------------- CONFIG ----------------
+    set_seed(42)
     cfg = Config()
 
     # Override from environment (for sweeps)
