@@ -1,6 +1,6 @@
 import torch
 import os
-from config import Config
+from config import Config, set_seed
 from dataset import get_cifar10_loaders
 from model import CIFARMobileNetV2
 from train import train_one_epoch, evaluate
@@ -8,6 +8,7 @@ from utils import save_checkpoint
 from utils import plot_curves
 
 def main():
+    set_seed(42)
     cfg = Config()
     os.makedirs("plots",exist_ok=True)
     
