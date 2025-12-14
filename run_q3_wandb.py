@@ -2,7 +2,7 @@
 import torch
 import wandb
 
-from config import Config
+from config import Config,set_seed
 from dataset import get_cifar10_loaders
 from model import CIFARMobileNetV2
 from train import evaluate
@@ -70,6 +70,7 @@ def run_experiment(quant_bits, prune_sparsity):
 
 
 if __name__ == "__main__":
+    set_seed(42)
     # ===== MANUAL SWEEP =====
     quant_bits_list = [8, 4, 2]
     prune_sparsity_list = [0.0, 0.3, 0.5]
