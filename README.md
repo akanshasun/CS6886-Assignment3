@@ -26,7 +26,7 @@ Install dependencies:
 pip install torch torchvision torchaudio
 pip install wandb numpy matplotlib
 
-Seed used: 42  
+Seed used was random but now fixed to 42. Expect accuracy delta of 0.5% 
 
 How to Run
 Q1 – Baseline Training
