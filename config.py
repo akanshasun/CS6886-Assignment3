@@ -1,6 +1,4 @@
 import torch 
-%%writefile project/config.py
-import torch 
 import random
 import numpy as np
 
